@@ -17,8 +17,8 @@ console.log(results)
 noseX = results[0].pose.nose.x;
 noseY = results[0].pose.nose.y;
 console.log("NoseX = " + noseX + " NoseY = " + noseY);
-RightWristX = results[0].pose.rightwrist.x;
-LeftWristX = results[0].pose.leftwrist.x;
+RightWristX = results[0].pose.rightWrist.x;
+LeftWristX = results[0].pose.leftWrist.x;
 console.log("Right Wrist X = " + RightWristX + " Left Wrist X = " + LeftWristX);
 difference = floor(LeftWristX-RightWristX);
 console.log("Difference: " + difference);
